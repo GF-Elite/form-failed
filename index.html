@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>form</title>
+</head>
+<body>
+   
+<div class="wrap">
+  <h4>Log In</h4>
+  <form id="login">
+    <label for="username">Username</label>
+    <input id="username" type="text"/>
+    <label for="password">Password</label>
+    <input id="password" type="password"/>
+    <div id="submit">
+      <input id="submit-button" type="submit" value="Log In"/>
+      <label for="submit-button">Log In</label>
+      <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <div class="message remain hidden"><span class="lnr lnr-lock"></span> <span class="number">1</span> Attempts left</div>
+    <div class="message lockout hidden"><span class="lnr lnr-history"></span> <span class="number">10</span> Minute lock!</div>
+  </form>
+</div>
+</body>
+</html>
